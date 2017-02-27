@@ -1,0 +1,259 @@
+{
+    "data": {
+        "lotteries": [{
+                "id": "1",
+				"logo": "logo-euromillions.png",
+                "logo_lg": "logo-long-10freeeuromillions.png",
+                "logo_sq": "logo-square-euromillions.png",
+                "name": "Free Euromillions",
+                "date": "1483225200000",
+                "pot-size": "29000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "2",
+                "logo_lg": "logo-long-alldrawlottobundle.png",
+                "logo_sq": "",
+                "name": "All Draw Lotto",
+                "date": "1483225200000",
+                "pot-size": "16000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "3",
+				"logo": "logo-bonoloto.png",
+                "logo_lg": "logo-long-bonoloto.png",
+                "logo_sq": "logo-square-bonoloto.png",
+                "name": "Bono Loto",
+                "date": "1483225200000",
+                "pot-size": "44000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "4",
+                "logo": "logo-superlotto.png",
+                "logo_lg": "logo-long-californiasuperlotto.png",
+                "logo_sq": "",
+                "name": "California Superlotto",
+                "date": "1483225200000",
+                "pot-size": "2000000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "5",
+				"logo": "logo-eurocombi.png",
+                "logo_lg": "logo-long-eurocombi155.png",
+                "logo_sq": "",
+                "name": "Eurocombi155",
+                "date": "1483225200000",
+                "pot-size": "88000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "6",
+                "logo": "logo-eurojackpot.png",
+                "logo_lg": "logo-long-eurojackpot.png",
+                "logo_sq": "logo-square-eurojackpot.png",
+                "name": "Euro Jackpot",
+                "date": "1483225200000",
+                "pot-size": "12000000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "7",
+                "logo_lg": "logo-long-eurolottobundle.png",
+                "logo_sq": "",
+                "name": "Eurolotto bundle",
+                "date": "1483225200000",
+                "pot-size": "875000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "8",
+                "logo_lg": "logo-long-eurolottosyndicate150.png",
+                "logo_sq": "",
+                "name": "Eurolotto",
+                "date": "1483225200000",
+                "pot-size": "29000000",
+                "link": "#",
+                "type": "3"
+            },
+            {
+                "id": "9",
+                "logo": "logo-euromillions.png",
+                "logo_lg": "logo-long-euromillions.png",
+                "logo_sq": "logo-square-euromillions.png",
+                "name": "Euro Millions",
+                "date": "1483225200000",
+                "pot-size": "150000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "10",
+                "logo_lg": "logo-long-euromillions-syndicate.png",
+                "logo_sq": "logo-square-euromillions.png",
+                "name": "Euromillions",
+                "date": "1483225200000",
+                "pot-size": "777777777",
+                "link": "#",
+                "type": "3"
+            },
+            {
+                "id": "11",
+                "logo_lg": "logo-long-germanlotto.png",
+                "logo_sq": "logo-square-germanlotto.png",
+                "name": "German Lotto",
+                "date": "1483225200000",
+                "pot-size": "250000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "12",
+                "logo": "logo-irishlotto.png",
+                "logo_lg": "logo-long-irishlotto.png",
+                "logo_sq": "logo-square-irishlotto.png",
+                "name": "Irish Lotto",
+                "date": "1483225200000",
+                "pot-size": "90000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "13",
+                "logo_lg": "logo-long-keno.png",
+                "logo_sq": "logo-square-keno.png",
+                "name": "Keno",
+                "date": "1483225200000",
+                "pot-size": "66000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "14",
+                "logo": "logo-lotto649.png",
+                "logo_lg": "logo-long-lotto649.png",
+                "logo_sq": "logo-square-lotto649.png",
+                "name": "Lotto 649",
+                "date": "1483225200000",
+                "pot-size": "3000000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "15",
+                "logo": "logo-megamillions.png",
+                "logo_lg": "logo-long-megamillions.png",
+                "logo_sq": "logo-square-megamillions.png",
+                "name": "Megamillions",
+                "date": "1483225200000",
+                "pot-size": "600000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "16",
+                "logo": "logo-megasena.png",
+                "logo_lg": "logo-long-mega-sena.png",
+                "logo_sq": "logo-square-mega-sena.png",
+                "name": "Mega Sena",
+                "date": "1483225200000",
+                "pot-size": "1700000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "17",
+                "logo": "logo-ozlotto.png",
+                "logo_lg": "logo-long-ozlotto.png",
+                "logo_sq": "logo-square-ozlotto.png",
+                "name": "Oz Lotto",
+                "date": "1483225200000",
+                "pot-size": "999000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "18",
+                "logo": "logo-powerball.png",
+                "logo_lg": "logo-long-powerball.png",
+                "logo_sq": "logo-square-powerball.png",
+                "name": "Powerball",
+                "date": "1483225200000",
+                "pot-size": "55555555",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "19",
+                "logo": "logo-powerballaustralia.png",
+                "logo_lg": "logo-long-powerballaustralia.png",
+                "logo_sq": "",
+                "name": "Powerball Australia",
+                "date": "1483225200000",
+                "pot-size": "687000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "20",
+                "logo": "logo-superenolotto.png",
+                "logo_lg": "logo-long-superenalotto.png",
+                "logo_sq": "logo-square-superenalotto.png",
+                "name": "Super Enalotto",
+                "date": "1483225200000",
+                "pot-size": "98000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "21",
+                "logo_lg": "logo-long-top4lottobundle.png",
+                "logo_sq": "",
+                "name": "Top4Lotto",
+                "date": "1483225200000",
+                "pot-size": "14000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "22",
+                "logo_lg": "logo-long-uscombi82.png",
+                "logo_sq": "",
+                "name": "US combi82",
+                "date": "1483225200000",
+                "pot-size": "86100000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "23",
+                "logo_lg": "logo-long-uslottosyndicate200.png",
+                "logo_sq": "",
+                "name": "US lotto",
+                "date": "1483225200000",
+                "pot-size": "70000000",
+                "link": "#",
+                "type": "3"
+            },
+            {
+                "id": "24",
+                "logo_lg": "logo-long-vipworld512.png",
+                "logo_sq": "",
+                "name": "Vipworld 512",
+                "date": "1483225200000",
+                "pot-size": "130000000",
+                "link": "#",
+                "type": "1"
+            }
+        ]
+    }
+}

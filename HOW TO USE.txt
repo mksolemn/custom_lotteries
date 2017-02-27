@@ -1,0 +1,3 @@
+package.json --
+	     -- add dependencys you want
+             -- run [npm install]

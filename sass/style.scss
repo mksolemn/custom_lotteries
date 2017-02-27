@@ -1,0 +1,266 @@
+// variables
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+// colors
+// template 1
+
+/*
+$text-color : #3498db;
+$background-color: #bdc3c7;
+$banner-color: #ba89b6;
+$button-color: #e67e22;
+$light-grey-color: #c7c7c7;
+*/
+
+// template 2
+$text-color: #00516c;
+$background-color: #e67e22;
+$banner-color: #ba89b6;
+$button-color: #e67e22;
+$light-grey-color: #c7c7c7;
+// resets
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+// lottery wrapper
+.dum-lotto {
+    font-size: 1em;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+// lottery item
+.dum-item {
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    list-style-type: none;
+    flex: 1;
+    justify-content: space-around;
+    li {
+        display: block;
+    }
+    &:last-child {
+        display: none;
+    }
+}
+
+// default template
+.default {
+    .dum-inner {
+        border-radius: 8px;
+        box-shadow: 0px 1px 5px 0px rgba(24, 42, 243, 0.5);
+        padding: 10px 0;
+        div {
+            padding: 10px 15px;
+        }
+    }
+    .dum-pot {
+        font-size: 2em;
+        font-family: Shrikhand;
+        background: $background-color;
+        color: #fff;
+    }
+    // buttons
+    .button {
+        a {
+            padding: 10px 30px;
+            border-radius: 5px;
+            display: block;
+            background: $button-color;
+            box-shadow: inset 0px 0px 7px -2px darken($button-color, 20%);
+            color: #fff;
+            border-bottom: solid 3px darken($button-color, 15%);
+            display: inline-block;
+        }
+    }
+}
+
+// king variables
+// colors
+$color-king-heading: #314951;
+$color-king-pot: #151775;
+$color-king-button: #f17f48;
+$color-background-even: #93ccff;
+$color-background-odd: #81e296;
+// offset
+$offset-top-logo: 60px;
+// king template
+.king {
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px;
+    margin-top: $offset-top-logo;
+    display: flex;
+    &:nth-child(even) {
+        >.dum-inner {
+            border: solid 2px $color-background-even;
+            //background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(147, 204, 255, 0.5) 100%);
+            box-shadow: inset 0px -115px 80px 17px rgba(147, 204, 255, 0.4);
+        }
+        &:hover {
+            .dum-inner {
+                box-shadow: inset 0px 150px 80px 17px rgba(147, 204, 255, 0.75);
+            }
+        }
+        .dum-pot {
+            background: rgba(147, 204, 255, .9);
+        }
+    }
+    &:nth-child(odd) {
+        >.dum-inner {
+            border: solid 2px $color-background-odd;
+            //background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(129, 226, 150, 0.5) 100%);
+            box-shadow: inset 0px -115px 80px 17px rgba(129, 226, 150, 0.4);
+        }
+        &:hover {
+            .dum-inner {
+                box-shadow: inset 0px 150px 80px 17px rgba(129, 226, 150, 0.75);
+            }
+        }
+        .dum-pot {
+            background: rgba(129, 226, 150, 0.75);
+        }
+    }
+    .button {
+        padding: 20px 0px;
+        height: 40px;
+        a {
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+            background: $color-king-button;
+            padding: 8px 16px;
+            border-radius: 4px;
+            border-bottom: solid 2px darken($color-king-button, 10%);
+            display: inline-block;
+            transition: all ease-in-out .2s;
+            &:hover {
+                margin-top: 2px;
+                border-bottom: solid 2px transparent;
+            }
+        }
+    }
+    .dum-inner {
+        border-radius: 4px;
+        transition: all ease-in-out .3s;
+        >div {
+            padding: 5px;
+        }
+        .dum-logo {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0px 45px;
+            box-sizing: border-box;
+            margin-top: -$offset-top-logo;
+            img {
+                max-width: 100%;
+            }
+        }
+        .dum-pot {
+            font-size: 28px;
+            font-weight: 600;
+            color: $color-king-pot;
+        }
+        .dum-name {
+            >* {
+                font-weight: 400;
+                font-size: 18px;
+                color: $color-king-heading;
+                display: inline-block;
+                padding: 5px;
+            }
+        }
+        .dum-date {
+            >* {
+                line-height: 30px;
+                font-size: 13px;
+                color: #617b82;
+                font-weight: bold;
+            }
+            .decor {
+                width: 30px;
+                height: auto;
+                vertical-align: middle;
+            }
+            span {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+// effects
+
+/* Buzz */
+
+@-webkit-keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+
+@keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+
+.hvr-buzz {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.king {
+    &:hover,
+    &:focus,
+    &:active {
+        .hvr-buzz {
+            -webkit-animation-name: hvr-buzz;
+            animation-name: hvr-buzz;
+            -webkit-animation-duration: 0.2s;
+            animation-duration: 0.2s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+        }
+    }
+}
