@@ -11,11 +11,11 @@ Widget options:
 
         });
 		
-lotteryFilter: array of lottery indexes, filters out the selected lotteries;
-handlebarsTemplate: choose between 3 preset handebarsjs templates: '#lotto-template1', '#lotto-template2', '#lotto-template3';
-columns: integer for number of columns;
-showSeconds: boolean - show/hide seconds;
-logoType: select display type for logos: "long", "square", empty;
+1. lotteryFilter: array of lottery indexes, filters out the selected lotteries;
+2. handlebarsTemplate: choose between 3 preset handebarsjs templates: '#lotto-template1', '#lotto-template2', '#lotto-template3';
+3. columns: integer for number of columns;
+4. showSeconds: boolean - show/hide seconds;
+5. logoType: select display type for logos: "long", "square", empty;
 
 Widget main files:
 
